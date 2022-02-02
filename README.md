@@ -14,7 +14,7 @@ BibTex
   year={2020}<br />
 }<br />
 
-<img src="/doc/manifold.jpg" width="300" height="300">
+<img src="/doc/manifold.jpg" width="500" height="300">
 
 <!-- ![Riemannian Manifold](/doc/manifold.jpg){:height="400px" width="200px"} -->
 
