@@ -15,6 +15,6 @@ BibTex
 }<br />
 
 
-![Riemannian Manifold](/doc/manifold.jpg) 
+![Riemannian Manifold](/doc/manifold.jpg){:height="700px" width="400px"}
 
 ![RFNet Arch](/doc/riemannian.jpg) 
