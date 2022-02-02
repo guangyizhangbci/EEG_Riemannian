@@ -16,7 +16,7 @@ BibTex
 
 <img src="/doc/manifold.jpg" width="500" height="300">
 
-<img src="/doc/riemannian.jpg" width="500" height="300">
+<img src="/doc/riemannian.jpg" width="600" height="200">
 
 <!-- ![Riemannian Manifold](/doc/manifold.jpg){:height="400px" width="200px"} -->
 
