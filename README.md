@@ -14,4 +14,4 @@ BibTex
   year={2020}<br />
 }<br />
 
-[Riemannian Manifold](/doc/riemannian.jpg) 
+![Riemannian Manifold](/doc/riemannian.jpg) 
