@@ -13,3 +13,5 @@ BibTex
   journal={arXiv preprint arXiv:2008.08633},<br />
   year={2020}<br />
 }<br />
+
+[Riemannian Manifold](/doc/riemannian.jpg) 
