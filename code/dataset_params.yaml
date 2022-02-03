@@ -1,0 +1,85 @@
+# #!/usr/bin/env python3
+# # -*- coding: utf-8 -*-
+# """
+# Created on Thu Mar 14 15:47:22 2020
+#
+# @author: patrick
+# """
+
+# Dataset Params
+
+SEED:
+  Subject_No: 15
+  Session_No: 2
+  Channel_No: 62
+  Band_No: 5
+  Class_No: 3
+  output_unit: 3
+  act_func: 'softmax'
+  timestep: 15
+  PATH: '/media/patrick/DATA/SEED/'
+
+  params:
+    Rank_No: 48
+    Bi_LSTM: False
+    LSTM_Layer_No: 3
+
+
+SEED_VIG:
+  Subject_No: 15
+  Fold_No: 5   # train-test split
+  Channel_No: 17
+  Band_No: 25
+  output_unit: 1
+  act_func: 'sigmoid'
+  timestep: 15
+  PATH: '/media/patrick/DATA/SEED_VIG'
+
+  params:
+    Rank_No: 11
+    Bi_LSTM: False
+    LSTM_Layer_No: 3
+
+
+BCI_IV_2a:
+  Subject_No: 9
+  Channel_No: 22
+  Band_No: 25
+  Class_No: 4
+  output_unit: 4
+  act_func: 'softmax'
+  timestep: 7
+  PATH: '/media/patrick/DATA/BCI_IV_2a/'
+
+  params:
+    Rank_No: 18
+    Bi_LSTM: False
+    LSTM_Layer_No: 3
+
+
+BCI_IV_2b:
+  Subject_No: 9
+  Channel_No: 3
+  Band_No: 25
+  Class_No: 2
+  output_unit: 1
+  act_func: 'sigmoid'
+  timestep: 7
+  PATH:  '/media/patrick/DATA/BCI_IV_2b/'
+
+  params:
+    Rank_No: 3
+    Bi_LSTM: False
+    LSTM_Layer_No: 3
+
+
+
+
+
+
+
+
+
+
+
+#
