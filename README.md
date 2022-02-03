@@ -17,4 +17,5 @@ BibTex
 
 <img src="/doc/manifold.jpg" width="350" height="200">
 
-<img src="/doc/riemannian.jpg" width="400" height="200">
+<!-- <img src="/doc/riemannian.jpg" width="400" height="200">
+ -->
