@@ -7,6 +7,7 @@
 If you find this material useful, please cite the following article:
 
 BibTex
+
 ## citations
 @article{zhang2020rfnet, <br />
   title={RFNet: Riemannian fusion network for EEG-based brain-computer interfaces},<br />
@@ -14,6 +15,9 @@ BibTex
   journal={arXiv preprint arXiv:2008.08633},<br />
   year={2020}<br />
 }<br />
+
+
+
 
 <img src="/doc/manifold.jpg" width="350" height="200">
 
