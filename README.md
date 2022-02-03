@@ -4,9 +4,23 @@
 [RFNet: Riemannian Fusion Network for EEG-based Brain-Computer Interfaces](https://arxiv.org/abs/2008.08633)
 
 
-If you find this material useful, please cite the following article:
 
-BibTex
+This repository contains the source code of RFNet, using following dataset:
+
+Emotion Recoginition: 
+[SEED:](https://bcmi.sjtu.edu.cn/~seed/seed.html): 15 subjects participated experiments with videos as emotion stimuli (positive/negative/neutral) and EEG was recorded with 62 channels.
+[SEED-VIG:](https://bcmi.sjtu.edu.cn/~seed/seed-vig.html): Vigilance estimation using EEG data in a simulated driving task. 23 subjects participated experiments and 17 EEG channels were recorded. 
+
+Motor Imagery 
+
+
+
+
+
+
+
+
+If you find this material useful, please cite the following article:
 
 ## citations
 ```
