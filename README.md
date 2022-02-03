@@ -15,7 +15,7 @@ BibTex
   author={Zhang, Guangyi and Etemad, Ali},
   journal={arXiv preprint arXiv:2008.08633},
   year={2020}
-}<br />
+}
 ```
 
 
