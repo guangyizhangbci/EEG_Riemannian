@@ -10,11 +10,11 @@ BibTex
 
 ## citations
 ```
-@article{zhang2020rfnet, <br />
-  title={RFNet: Riemannian fusion network for EEG-based brain-computer interfaces},<br />
-  author={Zhang, Guangyi and Etemad, Ali},<br />
-  journal={arXiv preprint arXiv:2008.08633},<br />
-  year={2020}<br />
+@article{zhang2020rfnet, 
+  title={RFNet: Riemannian fusion network for EEG-based brain-computer interfaces},
+  author={Zhang, Guangyi and Etemad, Ali},
+  journal={arXiv preprint arXiv:2008.08633},
+  year={2020}
 }<br />
 ```
 
