@@ -21,8 +21,15 @@ Motor Imagery:
 [BCI-IV-2b](https://www.bbci.de/competition/iv/#dataset1):9 subjects were involved in motor-imagery experiment (left hand and right hand). 3 EEG channels were recorded at sampling rate of 250Hz. 
 
 
+## Prerequisites
+Please follow the steps below in order to be able to train our models:
 
 
+1 - Install Requirements
+
+'''
+pip install -r ./requirements.txt
+'''
 
 
 
