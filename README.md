@@ -7,7 +7,7 @@
 If you find this material useful, please cite the following article:
 
 BibTex
-
+##citations
 @article{zhang2020rfnet, <br />
   title={RFNet: Riemannian fusion network for EEG-based brain-computer interfaces},<br />
   author={Zhang, Guangyi and Etemad, Ali},<br />
