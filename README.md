@@ -31,9 +31,9 @@ Please follow the steps below in order to be able to train our models:
 pip install -r ./requirements.txt
 ```
 
-2 - Download dataset, then [load data](./code/load_data.py), proprocessing data through [filter bank](./code/library/signal_filtering.py), and [extract features] [./code/library/feature_extraction.py]
+2 - Download dataset, then [load data](./code/load_data.py), proprocessing data through [filter bank](./code/library/signal_filtering.py), and [extract features] (./code/library/feature_extraction.py)
     
-3 - Store the preprocessed data and EEG into separate folders (e.g., 'train/EEG/' and 'train/Extracted Features'). Please store data and corresponding labels to the address shown in functions 'load_dataset_signal_addr' and 'load_dataset_feature_addr', as in [utils](./code/utils.py). 
+3 - Store the preprocessed data and EEG into separate folders (e.g., '/train/EEG/' and '/train/Extracted Features'). Please store data and corresponding labels to the address shown in functions 'load_dataset_signal_addr' and 'load_dataset_feature_addr', as in [utils](./code/utils.py). 
 
 4 - Perform parameters search for each individual stream. (1) For spatial information stream, run `python3 ./main_spatial_val.py --dataset datasetname` to search the rank of EEG covariance matrices. e.g, run 
 ```
@@ -53,11 +53,11 @@ for SEED dataset using two bidirectional LSTM layers. Results will be automatica
 
  ## Code Description
  
- 1 - `\code\library`:   Riemannian embedding estimation, feature preprocessing and extraction files
+- `\code\library`:   Riemannian embedding estimation, feature preprocessing and extraction files
  
- 2 - `\code\model`:     Models for spatial, temporal and spatio-temporal streams of our architecture. 
+- `\code\model`:     Models for spatial, temporal and spatio-temporal streams of our architecture. 
  
- 3 - `\example`:        Example data, label, filtered EEG and extracted data. File is too large so we shared a link of google drive. The filtered data through                            filter banks are large. For example, filtered EEG npy file of 1 subject is 4Gb in SEED , 4.8Gb in SEED-VIG, 2.6Gb in BCI-IV-2a and 528Mb in                        BCI_IV_2b. Therefore, we show data from a subject in the relatively small dataset as examples.
+- `\example`:        Example data, label, filtered EEG and extracted data. File is too large so we shared a link of google drive. The filtered data through                            filter banks are large. For example, filtered EEG npy file of 1 subject is 4Gb in SEED , 4.8Gb in SEED-VIG, 2.6Gb in BCI-IV-2a and 528Mb in                        BCI_IV_2b. Therefore, we show data from a subject in the relatively small dataset as examples.
  
 
 
