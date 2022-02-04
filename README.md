@@ -48,7 +48,11 @@ python3 ./main_spatial_val.py --dataset SEED --lr 0.001 --batch-size 8 --epochs 
 
 for SEED dataset using two bidirectional LSTM layers. Results will be automatically stored in the adddress in function 'save_spatial_val_result' and 'save_temporal_val_result' as in [utils](./code/utils.py).
 
-5 - Run the experiments for test data. e.g, run 'python3 ./main_spatial_val.py --dataset BCI_IV_2b --lr 0.001 --batch-size 32 --epochs 200 --early-stopping 100 --riemannian_dist' for BCI-IV 2b dataset. The paramaters are stored and updated in [dataset_params](./code/dataset_params.yaml).
+5 - Run the experiments for test data. e.g, run 
+```
+'python3 ./main_spatial_val.py --dataset BCI_IV_2b --lr 0.001 --batch-size 32 --epochs 200 --early-stopping 100 --riemannian_dist' 
+```
+for BCI-IV 2b dataset. The paramaters are stored and updated in [dataset_params](./code/dataset_params.yaml).
 
 
  ## Document Description
