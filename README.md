@@ -39,7 +39,7 @@ pip install -r ./requirements.txt
 ```
 python3 ./main_spatial_val.py --dataset BCI_IV_2a --lr 0.001 --batch-size 32 --epochs 200 --early-stopping 20 --riemannian_dist
 ```
-for BCI_IV_2a dataset. 
+for BCI_IV_2a dataset using riemannian projection. 
 
 (2) For temporal information stream, run `python3 ./main_temporal_val.py --dataset datasetname` to obtain the result for different settings. e.g, run
 ```
