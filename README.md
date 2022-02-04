@@ -77,7 +77,7 @@ If you find this material useful, please cite the following article:
 
 
 ## Contact
-should you have any questions please feel free to contact me at [guangyi.zhang@queensu.ca](guangyi.zhang@queensu.ca).
+Should you have any questions, please feel free to contact me at [guangyi.zhang@queensu.ca](guangyi.zhang@queensu.ca).
 
 
 
