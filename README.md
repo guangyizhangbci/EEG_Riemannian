@@ -72,11 +72,14 @@ If you find this material useful, please cite the following article:
   year={2020}
 }
 ```
+<img src="/doc/manifold.jpg" width="350" height="200">
+
+
+
 ## Contact
 should you have any questions please feel free to contact me at [guangyi.zhang@queensu.ca](guangyi.zhang@queensu.ca).
 
 
-<img src="/doc/manifold.jpg" width="350" height="200">
 
 <!-- <img src="/doc/riemannian.jpg" width="400" height="200">
  -->
