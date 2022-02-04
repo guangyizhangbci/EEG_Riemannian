@@ -41,7 +41,7 @@ python3 ./main_spatial_val.py --dataset BCI_IV_2a --lr 0.001 --batch-size 32 --e
 ```
 for BCI_IV_2a dataset using riemannian projection. 
 
-(2) For temporal information stream, run `python3 ./main_temporal_val.py --dataset datasetname` to obtain the result for different settings. e.g, run
+(2) For temporal information stream, run `python3 ./main_temporal_val.py --dataset datasetname` to obtain the result for different LSTM settings. e.g, run
 ```
 python3 ./main_spatial_val.py --dataset SEED --lr 0.001 --batch-size 8 --epochs 200 --early-stopping 20 -- BiLSTM --layer-num 2
 ```
