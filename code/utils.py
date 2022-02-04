@@ -156,7 +156,7 @@ def save_spatial_val_result(dataset, metrics_1_value, metrics_2_value, rank_num)
 
 
 
-    result_path = '/home/patrick/Desktop/RFNet/' + dataset + '_result/spatial/'
+    result_path = './' + dataset + '_result/spatial/'
     checkpoint_save_path = os.path.join(result_path, 'rank_{}/'.format(rank_num))
 
     if not os.path.exists(checkpoint_save_path):
@@ -185,7 +185,7 @@ def save_temporal_val_result(dataset, metrics_1_value, metrics_2_value, bidirect
         metrics_2_name = 'kap'
 
 
-    result_path = '/home/patrick/Desktop/RFNet/' + dataset + '_result/temporal/'
+    result_path = './' + dataset + '_result/temporal/'
     if bidirectional_flag == False:
         result_path = result_path + 'LSTM/'
     else:
@@ -220,7 +220,7 @@ def save_test_result(dataset, metrics_1_value, metrics_2_value):
         metrics_1_name = 'acc'
         metrics_2_name = 'kap'
 
-    result_path = '/home/patrick/Desktop/RFNet/' + dataset + '_result/test/'
+    result_path = './' + dataset + '_result/test/'
 
 
 
