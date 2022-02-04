@@ -51,7 +51,7 @@ for SEED dataset using two bidirectional LSTM layers. Results will be automatica
 5 - Run the experiments for test data. e.g, run 'python3 ./main_spatial_val.py --dataset BCI_IV_2b --lr 0.001 --batch-size 32 --epochs 200 --early-stopping 100 --riemannian_dist' for BCI-IV 2b dataset. The paramaters are stored and updated in [dataset_params](./code/dataset_params.yaml).
 
 
- ## Code Description
+ ## Document Description
  
 - `\code\library`:   Riemannian embedding estimation, feature preprocessing and extraction files
  
