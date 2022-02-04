@@ -33,7 +33,7 @@ pip install -r ./requirements.txt
 
 2 - Download dataset, then [load data](./code/load_data.py), proprocessing data through [filter bank](./code/library/signal_filtering.py), and [extract features](./code/library/feature_extraction.py)
     
-3 - Store the preprocessed data and EEG into separate folders (e.g., '/train/EEG/' and '/train/Extracted Features'). Please store data and corresponding labels to the address shown in functions 'load_dataset_signal_addr' and 'load_dataset_feature_addr', as in [utils](./code/utils.py). 
+3 - Store the preprocessed data and EEG into separate folders (e.g., '/train/EEG/' and '/train/Extracted Features'). Please store data and corresponding labels to the address shown in functions 'load_dataset_signal_addr' and 'load_dataset_feature_addr' from [utils](./code/utils.py). 
 
 4 - Perform parameters search for each individual stream. (1) For spatial information stream, run `python3 ./main_spatial_val.py --dataset datasetname` to search the rank of EEG covariance matrices. e.g, run 
 ```
@@ -46,7 +46,7 @@ for BCI_IV_2a dataset using riemannian projection.
 python3 ./main_spatial_val.py --dataset SEED --lr 0.001 --batch-size 8 --epochs 200 --early-stopping 20 -- BiLSTM --layer-num 2
 ```
 
-for SEED dataset using two bidirectional LSTM layers. Results will be automatically stored in the adddress in function 'save_spatial_val_result' and 'save_temporal_val_result' as in [utils](./code/utils.py). The paramaters are stored and updated in [dataset_params](./code/dataset_params.yaml).
+for SEED dataset using two bidirectional LSTM layers. Results will be automatically stored in the adddress in functions 'save_spatial_val_result' and 'save_temporal_val_result' from [utils](./code/utils.py). The paramaters are stored and updated in [dataset_params](./code/dataset_params.yaml).
 
 5 - Run the experiments for test data. e.g, run 
 ```
