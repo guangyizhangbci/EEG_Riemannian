@@ -63,7 +63,7 @@ for SEED dataset using two bidirectional LSTM layers. Results will be automatica
 
 If you find this material useful, please cite the following article:
 
-## citations
+## Citation
 ```
 @article{zhang2020rfnet, 
   title={RFNet: Riemannian fusion network for EEG-based brain-computer interfaces},
@@ -72,7 +72,8 @@ If you find this material useful, please cite the following article:
   year={2020}
 }
 ```
-
+## Contact
+should you have any questions please feel free to contact me at [guangyi.zhang@queensu.ca](guangyi.zhang@queensu.ca).
 
 
 <img src="/doc/manifold.jpg" width="350" height="200">
