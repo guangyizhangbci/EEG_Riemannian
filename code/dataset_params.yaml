@@ -17,7 +17,7 @@ SEED:
   output_unit: 3
   act_func: 'softmax'
   timestep: 15
-  PATH: '/media/patrick/DATA/SEED/'
+  PATH: './DATA/SEED/'
 
   params:
     Rank_No: 48
@@ -33,7 +33,7 @@ SEED_VIG:
   output_unit: 1
   act_func: 'sigmoid'
   timestep: 15
-  PATH: '/media/patrick/DATA/SEED_VIG'
+  PATH: './DATA/SEED_VIG'
 
   params:
     Rank_No: 11
@@ -49,7 +49,7 @@ BCI_IV_2a:
   output_unit: 4
   act_func: 'softmax'
   timestep: 7
-  PATH: '/media/patrick/DATA/BCI_IV_2a/'
+  PATH: './DATA/BCI_IV_2a/'
 
   params:
     Rank_No: 18
@@ -65,7 +65,7 @@ BCI_IV_2b:
   output_unit: 1
   act_func: 'sigmoid'
   timestep: 7
-  PATH:  '/media/patrick/DATA/BCI_IV_2b/'
+  PATH:  './DATA/BCI_IV_2b/'
 
   params:
     Rank_No: 3
