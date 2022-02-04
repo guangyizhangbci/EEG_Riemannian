@@ -52,7 +52,7 @@ for SEED dataset using two bidirectional LSTM layers. Results will be automatica
 
 5 - Run the experiments for test data. e.g, run 
 ```
-'python3 ./main.py --dataset BCI_IV_2b --lr 0.001 --batch-size 32 --epochs 200 --early-stopping 100 --riemannian_dist' 
+python3 ./main.py --dataset BCI_IV_2b --lr 0.001 --batch-size 32 --epochs 200 --early-stopping 100 --riemannian_dist 
 ```
 for BCI-IV 2b dataset. 
 
