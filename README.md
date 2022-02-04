@@ -15,10 +15,10 @@ Emotion Recoginition:
 
 Motor Imagery: 
 
-[BCI-IV-2a](https://www.bbci.de/competition/iv/#dataset1): 9 subjects were involved in motor-imagery experiment (left hand, right hand, feet and tongue). 22 EEG recordings were collected at sampling rate of 250Hz. 
+[BCI-IV 2a](https://www.bbci.de/competition/iv/#dataset1): 9 subjects were involved in motor-imagery experiment (left hand, right hand, feet and tongue). 22 EEG recordings were collected at sampling rate of 250Hz. 
 
 
-[BCI-IV-2b](https://www.bbci.de/competition/iv/#dataset1):9 subjects were involved in motor-imagery experiment (left hand and right hand). 3 EEG channels were recorded at sampling rate of 250Hz. 
+[BCI-IV 2b](https://www.bbci.de/competition/iv/#dataset1):9 subjects were involved in motor-imagery experiment (left hand and right hand). 3 EEG channels were recorded at sampling rate of 250Hz. 
 
 
 ## Prerequisites
@@ -48,7 +48,7 @@ python3 ./main_spatial_val.py --dataset SEED --lr 0.001 --batch-size 8 --epochs 
 
 for SEED dataset using two bidirectional LSTM layers. Results will be automatically stored in the adddress in function 'save_spatial_val_result' and 'save_temporal_val_result' as in [utils](./code/utils.py).
 
-5 - Run the experiments for test data. e.g, run 'python3 ./main_spatial_val.py --dataset BCI_IV_2b --lr 0.001 --batch-size 32 --epochs 200 --early-stopping 100 --riemannian_dist' for BCI_IV_2a dataset. The paramaters are stored and updated in [dataset_params](./code/dataset_params.yaml).
+5 - Run the experiments for test data. e.g, run 'python3 ./main_spatial_val.py --dataset BCI_IV_2b --lr 0.001 --batch-size 32 --epochs 200 --early-stopping 100 --riemannian_dist' for BCI-IV 2b dataset. The paramaters are stored and updated in [dataset_params](./code/dataset_params.yaml).
 
 
  ## Code Description
@@ -57,7 +57,7 @@ for SEED dataset using two bidirectional LSTM layers. Results will be automatica
  
 - `\code\model`:     Models for spatial, temporal and spatio-temporal streams of our architecture. 
  
-- `\example`:        Example data, label, filtered EEG and extracted data. File is too large so we shared a link of google drive. The filtered data through                            filter banks are large. For example, filtered EEG npy file of 1 subject is 4Gb in SEED , 4.8Gb in SEED-VIG, 2.6Gb in BCI-IV-2a and 528Mb in                        BCI_IV_2b. Therefore, we show data from a subject in the relatively small dataset as examples.
+- `\example`:        Example data, label, filtered EEG and extracted data. File is too large so we shared a link of google drive. The filtered data through                            filter banks are large. For example, filtered EEG npy file of 1 subject is 4Gb in SEED, 4.8Gb in SEED-VIG, 2.6Gb in BCI-IV 2a and 528Mb in                        BCI-IV 2b. Therefore, we show data from a subject in the relatively small dataset as examples.
  
 
 
