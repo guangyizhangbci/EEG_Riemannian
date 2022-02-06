@@ -101,9 +101,12 @@ def spatial_temporal_info_stream(train_embed, test_embed, X_train_features, X_te
     X = np.reshape(X, (X.shape[0], X.shape[1], X.shape[2]*X.shape[3])) #trial, timestep, channel*features
     X_new = np.reshape(X, (X.shape[0]*X.shape[1], X.shape[2]))
 
-    scalar = MinMaxScaler(feature_range=(-1, 1),  copy=True)
-    scalar.fit(X_new)
-    X_new  = scalar.transform(X_new)
+    if dataset =='BCI_IV_2a':
+        X_new = (X_new - np.mean(X_new))/np.std(X_new)
+    else:
+        scalar = MinMaxScaler(feature_range=(-1, 1),  copy=True)
+        scalar.fit(X_new)
+        X_new  = scalar.transform(X_new)
 
     X = np.reshape(X_new, (X.shape[0], X.shape[1], X.shape[2]))
 
