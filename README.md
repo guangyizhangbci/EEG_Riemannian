@@ -45,7 +45,7 @@ for BCI_IV_2a dataset using riemannian projection.
 
 (2) For temporal information stream, run `python3 ./main_temporal_val.py --dataset datasetname` to obtain the result for different LSTM settings. e.g, run
 ```
-python3 ./main_spatial_val.py --dataset SEED --lr 0.001 --batch-size 8 --epochs 200 --early-stopping 20 -- BiLSTM --layer-num 2
+python3 ./main_temporal_val.py --dataset SEED --lr 0.001 --batch-size 8 --epochs 200 --early-stopping 20 -- BiLSTM --layer-num 2
 ```
 
 for SEED dataset using two bidirectional LSTM layers. Results will be automatically stored in the adddress in functions 'save_spatial_val_result' and 'save_temporal_val_result' from [utils](./code/utils.py). The paramaters are stored and updated in [dataset_params](./code/dataset_params.yaml).
