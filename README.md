@@ -50,7 +50,7 @@ python3 ./main_temporal_val.py --dataset SEED --cpu-seed 0 --gpu-seed 12345 --lr
 
 for SEED dataset using two bidirectional LSTM layers. Results will be automatically stored in the adddress in functions 'save_spatial_val_result' and 'save_temporal_val_result' from [utils](./code/utils.py). The paramaters are stored and updated in [dataset_params](./code/dataset_params.yaml).
 
-5 - Run the experiments for test data. e.g, run 
+5 - Run the experiments for test data. For example, run the following command: 
 ```
 python3 ./main.py --dataset BCI_IV_2b --cpu-seed 0 --gpu-seed 12345 --lr 0.001 --batch-size 32 --epochs 200 --early-stopping 100 --riemannian_dist 
 ```
