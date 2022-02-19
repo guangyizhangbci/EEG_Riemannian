@@ -35,7 +35,7 @@ pip install -r ./requirements.txt
     
 3 - Store the preprocessed data and EEG into separate folders (e.g., '/train/EEG/' and '/train/Extracted Features'). Please store data and corresponding labels to the address shown in functions 'load_dataset_signal_addr' and 'load_dataset_feature_addr' from [utils](./code/utils.py). 
 
-4 - Perform parameters search for each individual stream. 
+4 - Perform hyper-parameters search for each individual stream. 
 
 (1) For spatial information stream, run `python3 ./main_spatial_val.py --dataset datasetname` to search the rank of EEG covariance matrices. e.g, run 
 ```
