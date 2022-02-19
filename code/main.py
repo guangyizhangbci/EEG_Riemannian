@@ -23,6 +23,10 @@ print('ready')
 parser = argparse.ArgumentParser(description='Spatial Temporal_Info')
 parser.add_argument('--dataset', default='BCI_IV_2b', type=str,
                     help='learning rate')
+parser.add_argument('--cpu-seed', default=0, type=int, metavar='N',
+                    help='cpu seed')
+parser.add_argument('--gpu-seed', default=12345, type=int, metavar='N',
+                    help='gpu seed')
 parser.add_argument('--lr', default=0.001, type=float, metavar='N',
                     help='learning rate')
 parser.add_argument('--batch-size', default=32, type=int, metavar='N',
@@ -258,6 +262,8 @@ if __name__ == '__main__':
 
     config = load_config('dataset_params.yaml')
     with tf.device("gpu:0"):
+        np.random.seed(args.cpu_seed)
+        tf.random.set_random_seed(args.gpu_seed)
         experiments(args.dataset).run()
 
 
