@@ -165,7 +165,9 @@ def temporal_info_stream(X_train, X_val, X_test, Y_train, Y_val, Y_test, dataset
 
     checkpoint_path = os.path.join(config[dataset]['PATH'], 'ckpt/val_temporal_model.ckpt')
 
-
+    '''
+    Early stopping strategy based on validation loss
+    '''
     callbacks = [tf.keras.callbacks.EarlyStopping(monitor='val_loss', mode = 'auto', patience=net_params['early_stopping']),
                   tf.keras.callbacks.ModelCheckpoint(filepath=checkpoint_path, monitor='val_loss', mode = 'auto', save_weights_only=True, save_best_only=True)]
 
