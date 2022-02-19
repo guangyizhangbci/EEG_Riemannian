@@ -39,20 +39,20 @@ pip install -r ./requirements.txt
 
 (1) For spatial information stream, run `python3 ./main_spatial_val.py --dataset datasetname` to search the rank of EEG covariance matrices. For example, run the following command: 
 ```
-python3 ./main_spatial_val.py --dataset BCI_IV_2a --lr 0.001 --batch-size 32 --epochs 200 --early-stopping 20 --riemannian_dist
+python3 ./main_spatial_val.py --dataset BCI_IV_2a --cpu-seed 0 --gpu-seed 12345 --lr 0.001 --batch-size 32 --epochs 200 --early-stopping 20 --riemannian_dist
 ```
 for BCI_IV_2a dataset using riemannian projection. 
 
 (2) For temporal information stream, run `python3 ./main_temporal_val.py --dataset datasetname` to obtain the result for different LSTM settings. For example, run the following command: 
 ```
-python3 ./main_temporal_val.py --dataset SEED --lr 0.001 --batch-size 8 --epochs 200 --early-stopping 20 -- BiLSTM --layer-num 2
+python3 ./main_temporal_val.py --dataset SEED --cpu-seed 0 --gpu-seed 12345 --lr 0.001 --batch-size 8 --epochs 200 --early-stopping 20 -- BiLSTM --layer-num 2
 ```
 
 for SEED dataset using two bidirectional LSTM layers. Results will be automatically stored in the adddress in functions 'save_spatial_val_result' and 'save_temporal_val_result' from [utils](./code/utils.py). The paramaters are stored and updated in [dataset_params](./code/dataset_params.yaml).
 
 5 - Run the experiments for test data. e.g, run 
 ```
-python3 ./main.py --dataset BCI_IV_2b --lr 0.001 --batch-size 32 --epochs 200 --early-stopping 100 --riemannian_dist 
+python3 ./main.py --dataset BCI_IV_2b --cpu-seed 0 --gpu-seed 12345 --lr 0.001 --batch-size 32 --epochs 200 --early-stopping 100 --riemannian_dist 
 ```
 for BCI-IV 2b dataset. 
 
