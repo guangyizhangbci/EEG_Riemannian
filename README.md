@@ -81,7 +81,7 @@ If you find this material useful, please cite the following article:
 
 
 ## Contact
-Should you have any questions, please feel free to contact me at [guangyi.zhang@queensu.ca](guangyi.zhang@queensu.ca).
+Should you have any questions, please feel free to contact me at [guangyi.zhang@queensu.ca](mailto:guangyi.zhang@queensu.ca).
 
 
 
