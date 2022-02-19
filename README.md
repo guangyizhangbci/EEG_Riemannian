@@ -37,7 +37,7 @@ pip install -r ./requirements.txt
 
 4 - Perform hyper-parameters search for each individual stream. 
 
-(1) For spatial information stream, run `python3 ./main_spatial_val.py --dataset datasetname` to search the rank of EEG covariance matrices. e.g, run 
+(1) For spatial information stream, run `python3 ./main_spatial_val.py --dataset datasetname` to search the rank of EEG covariance matrices. For example, run 
 ```
 python3 ./main_spatial_val.py --dataset BCI_IV_2a --lr 0.001 --batch-size 32 --epochs 200 --early-stopping 20 --riemannian_dist
 ```
