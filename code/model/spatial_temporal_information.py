@@ -235,7 +235,9 @@ def spatial_temporal_info_stream(train_embed, test_embed, X_train_features, X_te
 
         checkpoint_path = os.path.join(config[dataset]['PATH'], 'ckpt/test_spatial_temporal_model.ckpt')
 
-
+        '''
+        Early stopping strategy based on training loss
+        '''
         callbacks = [tf.keras.callbacks.EarlyStopping(monitor='loss', mode = 'auto', patience=net_params['early_stopping']),
                       tf.keras.callbacks.ModelCheckpoint(filepath=checkpoint_path, monitor='loss', mode = 'auto', save_weights_only=True, save_best_only=True)]
 
