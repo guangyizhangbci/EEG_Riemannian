@@ -63,8 +63,6 @@ for BCI-IV 2b dataset.
  
 - `\code\model`:     Models for spatial, temporal and spatio-temporal streams of our architecture. 
  
-- `\example`:        Example data, label, filtered EEG and extracted data. File is too large so we shared a link of google drive. The filtered data through                            filter banks are large. For example, size of EEG data applied through filter bank (in npy format) of one subject is 4GB in SEED, 4.8GB in                          SEED-VIG, 2.6GB in BCI-IV 2a and 528MB in BCI-IV 2b. Therefore, we show data from a subject in the relatively small dataset as examples.
- 
 
 
 If you find this material useful, please cite the following article:
