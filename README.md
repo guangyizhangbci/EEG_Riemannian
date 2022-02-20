@@ -78,7 +78,7 @@ If you find this material useful, please cite the following article:
   year={2020}
 }
 ```
-<img src="/doc/manifold.jpg" width="350" height="200">
+<img src="/doc/architecture.jpg" width="350" height="200">
 
 
 
