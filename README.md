@@ -72,7 +72,7 @@ If you find this material useful, please cite the following article:
 ## Citation
 ```
 @article{zhang2020rfnet, 
-  title={RFNet: Riemannian fusion network for EEG-based brain-computer interfaces},
+  title={Spatio-Temporal EEG Representation Learning on Riemannian Manifold and Euclidean Space},
   author={Zhang, Guangyi and Etemad, Ali},
   journal={arXiv preprint arXiv:2008.08633},
   year={2020}
