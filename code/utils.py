@@ -145,7 +145,7 @@ def parse_valid_data_all(x_eeg, x_features, y):
 
 def save_spatial_val_result(dataset, metrics_1_value, metrics_2_value, rank_num):
     '''
-    Save the validation result using only spatial stream of RFNet
+    Save the validation result using only spatial stream of our model
     '''
     if 'VIG' in dataset:
         metrics_1_name = 'rmse'
@@ -175,7 +175,7 @@ def save_spatial_val_result(dataset, metrics_1_value, metrics_2_value, rank_num)
 
 def save_temporal_val_result(dataset, metrics_1_value, metrics_2_value, bidirectional_flag, layer_num):
     '''
-    Save the validation result using only temporal stream of RFNet
+    Save the validation result using only temporal stream of our model
     '''
     if 'VIG' in dataset:
         metrics_1_name = 'rmse'
@@ -211,7 +211,7 @@ def save_temporal_val_result(dataset, metrics_1_value, metrics_2_value, bidirect
 
 def save_test_result(dataset, metrics_1_value, metrics_2_value):
     '''
-    Save the test result using RFNet
+    Save the test result using our model
     '''
     if 'VIG' in dataset:
         metrics_1_name = 'rmse'
