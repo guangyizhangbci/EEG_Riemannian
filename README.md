@@ -5,7 +5,7 @@
 
 
 
-This repository contains the source code of RFNet, using following datasets:
+This repository contains the source code of our paper, using following datasets:
 
 - Emotion Recoginition: 
 
