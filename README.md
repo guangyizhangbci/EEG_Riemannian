@@ -1,4 +1,4 @@
-# RFNet: Riemannian Fusion Network for EEG-based Brain-Computer Interfaces (TF v1.14.0)
+# Spatio-Temporal EEG Representation Learning on Riemannian Manifold and Euclidean Space (TF v1.14.0)
 
 
 [RFNet: Riemannian Fusion Network for EEG-based Brain-Computer Interfaces](https://arxiv.org/abs/2008.08633)
