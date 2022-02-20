@@ -2,7 +2,7 @@ import tensorflow as tf
 import yaml
 import os,sys
 import numpy as np
-# sys.path.append(os.path.abspath('/RFNet'))
+# sys.path.append(os.path.abspath('/EEG_Riemannian'))
 # print(sys.path[0])
 
 import utils
