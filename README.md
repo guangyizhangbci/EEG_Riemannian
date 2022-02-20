@@ -87,5 +87,5 @@ Should you have any questions, please feel free to contact me at [guangyi.zhang@
 
 
 
-<!-- <img src="/doc/riemannian.jpg" width="400" height="200">
+<!-- <img src="/doc/architecture.jpg" width="400" height="200">
  -->
