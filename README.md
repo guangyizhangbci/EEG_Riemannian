@@ -78,7 +78,7 @@ If you find this material useful, please cite the following article:
   year={2020}
 }
 ```
-<img src="/doc/architecture.jpg" width="850" height="300">
+<img src="/doc/architecture.jpg" width="900" height="400">
 
 
 
