@@ -28,7 +28,7 @@ Please follow the steps below in order to be able to train our models:
 1 - Install Requirements
 
 ```
-pip install -r ./requirements.txt
+pip3 install -r ./requirements.txt
 ```
 
 2 - Download dataset, then [load data](./code/load_data.py), proprocessing data through [filter bank](./code/library/signal_filtering.py), and perfom [feature extraction](./code/library/feature_extraction.py).
