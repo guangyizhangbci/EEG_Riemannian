@@ -1,7 +1,7 @@
 # Spatio-Temporal EEG Representation Learning on Riemannian Manifold and Euclidean Space (TF v1.14.0)
 
-
-[Spatio-Temporal EEG Representation Learning on Riemannian Manifold and Euclidean Space](https://arxiv.org/abs/2008.08633)
+<h1 align="center">[Spatio-Temporal EEG Representation Learning on Riemannian Manifold and Euclidean Space](https://arxiv.org/abs/2008.08633)</h1>
+<!-- [Spatio-Temporal EEG Representation Learning on Riemannian Manifold and Euclidean Space](https://arxiv.org/abs/2008.08633) -->
 
 <p align="center">
   <img 
