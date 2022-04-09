@@ -6,7 +6,7 @@
 <p align="center">
   <img 
     width="700"
-    height="300"
+    height="270"
     src="/doc/architecture.jpg"
   >
 </p>
