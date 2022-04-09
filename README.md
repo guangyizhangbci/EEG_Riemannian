@@ -3,7 +3,14 @@
 
 [Spatio-Temporal EEG Representation Learning on Riemannian Manifold and Euclidean Space](https://arxiv.org/abs/2008.08633)
 
-<img src="/doc/architecture.jpg" width="1100" height="350">
+<p align="center">
+  <img 
+    width="1000"
+    height="300"
+    src="/doc/architecture.jpg"
+  >
+</p>
+
 
 This repository contains the source code of our paper, using following datasets:
 
