@@ -5,8 +5,8 @@
 
 <p align="center">
   <img 
-    width="1000"
-    height="300"
+    width="800"
+    height="200"
     src="/doc/architecture.jpg"
   >
 </p>
