@@ -37,7 +37,7 @@ Please follow the steps below in order to be able to train our models:
 pip3 install -r ./requirements.txt
 ```
 
-2 - Download dataset, then [load data](./code/load_data.py), proprocessing data through [filter bank](./code/library/signal_filtering.py), and perfom [feature extraction](./code/library/feature_extraction.py).
+2 - Download dataset, [load data](./code/load_data.py), proprocess data through [filter bank](./code/library/signal_filtering.py), then perfom [feature extraction](./code/library/feature_extraction.py).
     
 3 - Save the preprocessed data and EEG into separate folders (e.g., '/train/EEG/' and '/train/Extracted Features'). Move data and corresponding labels to the address shown in functions 'load_dataset_signal_addr' and 'load_dataset_feature_addr' from [utils](./code/utils.py). 
 
