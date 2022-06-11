@@ -54,7 +54,7 @@ for the BCI_IV_2a dataset using Riemannian projection.
 python3 ./main_temporal_val.py --dataset SEED --cpu-seed 0 --gpu-seed 12345 --lr 0.001 --batch-size 8 --epochs 200 --early-stopping 20 -- BiLSTM --layer-num 2
 ```
 
-for SEED dataset using two bidirectional LSTM layers. 
+for the SEED dataset using two bidirectional LSTM layers. 
 
 Validation results will be automatically saved in the adddress in functions 'save_spatial_val_result' and 'save_temporal_val_result' from [utils](./code/utils.py). The paramaters are saved and updated in [dataset_params](./code/dataset_params.yaml).
 
