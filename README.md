@@ -43,11 +43,11 @@ pip3 install -r ./requirements.txt
 
 4 - Perform a hyper-parameters search for each information stream. 
 
-(1) For spatial information stream, run `python3 ./main_spatial_val.py --dataset datasetname` to search the rank of EEG covariance matrices. For example, run the following command
+(1) For spatial information stream, run `python3 ./main_spatial_val.py --dataset datasetname` to search for the rank of EEG covariance matrices. For example, run the following command
 ```
 python3 ./main_spatial_val.py --dataset BCI_IV_2a --cpu-seed 0 --gpu-seed 12345 --lr 0.001 --batch-size 32 --epochs 200 --early-stopping 20 --riemannian_dist
 ```
-for BCI_IV_2a dataset using riemannian projection. 
+for the BCI_IV_2a dataset using Riemannian projection. 
 
 (2) For temporal information stream, run `python3 ./main_temporal_val.py --dataset datasetname` to obtain the result for different LSTM settings. For example, run the following command
 ```
