@@ -56,7 +56,7 @@ python3 ./main_temporal_val.py --dataset SEED --cpu-seed 0 --gpu-seed 12345 --lr
 
 for the SEED dataset using two bidirectional LSTM layers. 
 
-Validation results will be automatically saved in the adddress in functions 'save_spatial_val_result' and 'save_temporal_val_result' from [utils](./code/utils.py). The paramaters are saved and updated in [dataset_params](./code/dataset_params.yaml).
+Validation results will be automatically saved in the address in functions 'save_spatial_val_result' and 'save_temporal_val_result' from [utils](./code/utils.py). The parameters are saved and updated in [dataset_params](./code/dataset_params.yaml).
 
 5 - Run the experiments for test data. For example, run the following command
 ```
