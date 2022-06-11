@@ -62,7 +62,7 @@ Validation results will be automatically saved in the address in functions 'save
 ```
 python3 ./main.py --dataset BCI_IV_2b --cpu-seed 0 --gpu-seed 12345 --lr 0.001 --batch-size 32 --epochs 200 --early-stopping 100 --riemannian_dist 
 ```
-for BCI-IV 2b dataset. 
+for the BCI-IV 2b dataset. 
 
 
  ## Document Description
