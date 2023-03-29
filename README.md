@@ -11,6 +11,12 @@
 </p>
 
 
+## Install
+```
+pip install eeg-riemannian==1.10.0
+```
+
+
 This repository contains the source code of our paper, using following datasets:
 
 - Emotion Recoginition: 
