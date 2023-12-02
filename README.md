@@ -83,12 +83,16 @@ If you find this material useful, please cite the following article:
 
 ## Citation
 ```
-@article{zhang2020rfnet, 
-  title={Spatio-Temporal EEG Representation Learning on Riemannian Manifold and Euclidean Space},
+
+@ARTICLE{10328680,
   author={Zhang, Guangyi and Etemad, Ali},
-  journal={arXiv preprint arXiv:2008.08633},
-  year={2020}
-}
+  journal={IEEE Transactions on Emerging Topics in Computational Intelligence}, 
+  title={Spatio-Temporal EEG Representation Learning on Riemannian Manifold and Euclidean Space}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-15},
+  doi={10.1109/TETCI.2023.3332549}}
 ```
 
 
