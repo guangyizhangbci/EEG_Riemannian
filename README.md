@@ -88,10 +88,11 @@ If you find this material useful, please cite the following article:
   author={Zhang, Guangyi and Etemad, Ali},
   journal={IEEE Transactions on Emerging Topics in Computational Intelligence}, 
   title={Spatio-Temporal EEG Representation Learning on Riemannian Manifold and Euclidean Space}, 
-  year={2023},
-  volume={},
-  number={},
-  pages={1-15},
+  year={2024},
+  volume={8},
+  number={2},
+  pages={1469-1483},
+  keywords={Electroencephalography;Feature extraction;Manifolds;Neural networks;Emotion recognition;Computer architecture;Image processing;EEG representations learning;emotion recognition;motor imagery classification;riemannian manifold},
   doi={10.1109/TETCI.2023.3332549}}
 ```
 
